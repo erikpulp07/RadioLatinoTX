@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Freelancer v5.0.0 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
- */
+
 
 body {
   font-family: 'Lato';
@@ -16,6 +12,19 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+}
+
+.imgfollow{
+ width: 90px;
+ height: 90px;
+ float:right;
+  margin-left: 80px;
+}
+.mySlides{
+  width: 300px;
+  height: 200px;  
+  background-size: cover;
+
 }
 
 hr.star-light,
@@ -62,7 +71,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 0.3rem 0;
 }
 
 section h2 {
@@ -148,7 +157,7 @@ section h2 {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 1em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
@@ -159,7 +168,8 @@ section h2 {
     color: #fff;
     background: #18BC9C;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav >
+  li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #18BC9C;
   }
@@ -216,7 +226,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(117, 188, 24, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -317,7 +327,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: rgb(188, 24, 79);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -372,7 +382,9 @@ a:focus, a:hover, a:active {
   background-color: #128f76;
   border-color: #128f76;
 }
-
+.mb-5{
+  text-align: justify;
+}
 .btn-secondary {
   background-color: #2C3E50;
   border-color: #2C3E50;

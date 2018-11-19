@@ -1,0 +1,5 @@
+{
+	"modal1" : "<h2>This is a test for the first modal</h2>",
+	"modal2" : "<h1>Test 2 for modal 2!!!</h1>",
+	"modal3" : "<h3>this the mother fu$$$ test 3</h3>"
+}

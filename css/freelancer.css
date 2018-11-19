@@ -13,7 +13,19 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
-
+.ico{
+  bottom: 5px;
+  height: 14px;
+  left: 0;
+  position: relative;
+  width: 23px;
+  
+}
+ 
+ .face{  
+    padding-left: 80px;
+    padding-right: 80px; 
+ }
 .imgfollow{
  width: 90px;
  height: 90px;
@@ -183,8 +195,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(4rem + 72px);
+  padding-bottom: 0rem;
 }
 
 header.masthead h1 {

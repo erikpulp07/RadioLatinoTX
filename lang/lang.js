@@ -4,20 +4,74 @@
     $( document ).ready(function() {
       	var objectsLang = $(".lang");
         var myItemsUS = {
-						modal1 : {text : "<h2>This is a test for the first modal</h2>"},
-						modal2 : {text : "<h1>Test 2 for modal 2!!!</h1>"},
-						modal3 : {text : "<h3>this the mother fu$$$ test 3</h3>"},
+						m1Title : {text : "Latino Radio TX"},
+						m2Title : {text : "Online Magazine"},
+						m1Body : {text : "Advertise here in our online radio, and get excelents results for your business!" +
+                             "varied music, livestreaming in diferent schedules, music genres: " + 
+                             "country, reguee, clasics, modern, etc. You can get announce your business with us for very" +
+                             "low price and nice offerts"},
+            m2Body : {text : "In our magazine we ofert"},
+            WWA:{text: "Who we are?"},
+            mission:{text: "Mission"},
+            services:{text: "Services"},
+            ContactUs:{text: "Contact Us"},
+            titleContender:{text:"Online Radio - Magazine"},
+            titleServices:{text:"Our Services"},
+            titleMagazine:{text:"Latino Magazine"},
+            titleWWA:{text:"Who we are?"},
+            p1WWA:{text:"this is a test"},
+            p2WWA:{text:"this is a test 2"},
+            p3WWA:{text:"this is a test 3"},
+            CloseModal:{text:"close"},
+            titleMision:{text:"Mission"},
+            pMission:{text:"this is the mission"},
+            titleContact:{text:"Contact Us"},
+            sendMessageButton:{text:"Send"},
+            location:{text:"Location"},
+            location1:{text:"Latino Magazine address <br> 5869 street"},
+            location2:{text:"Social Media"},
+            location3:{text:"<small>Copyright &copy; Latino Magazine 2018</small>"},
             contact_me : {text : "Contact me"},
-            nameContact : { text : "Name", placeholder: "Name", msg : "Please enter your name."}
+            name : { text : "Name", placeholder: "Name", msg : "Please enter your name."},
+            email : { text : "email", placeholder: "email", msg : "Please enter your email."},
+            phone : { text : "phone", placeholder: "phone", msg : "Please enter your phone number."},
+            message : { text : "message", placeholder: "message", msg : "Please enter a message."}
 				};
         var myItemsES = {
-            modal1 : {text :"<h2>Hola prueba modal 1</h2>"},
-            modal2 : {text :"<h1>Esta es la modal 2!!!</h1>"},
-            modal3 : {text :"<h3>aqui es el test 3</h3>"},
-            contact_me : {text :"Contáctanos"},
-            nameContact : { text : "Nombre", placeholder: "Nombre", msg : "Por favor ingrese su nombre."}
+            m1Title : {text : "Latino Radio TX"},
+            m2Title : {text : "Online Magazine"},
+            m1Body : {text : "Advertise here in our online radio, and get excelents results for your business!" +
+                             "varied music, livestreaming in diferent schedules, music genres: " + 
+                             "country, reguee, clasics, modern, etc. You can get announce your business with us for very" +
+                             "low price and nice offerts"},
+            m2Body : {text : "In our magazine we ofert"},
+            WWA:{text: "Who we are?"},
+            mission:{text: "Mission"},
+            services:{text: "Services"},
+            ContactUs:{text: "Contact Us"},
+            titleContender:{text:"Online Radio - Magazine"},
+            titleServices:{text:"Our Services"},
+            titleMagazine:{text:"Latino Magazine"},
+            titleWWA:{text:"Who we are?"},
+            p1WWA:{text:"this is a test"},
+            p2WWA:{text:"this is a test 2"},
+            p3WWA:{text:"this is a test 3"},
+            CloseModal:{text:"close"},
+            titleMision:{text:"Mission"},
+            pMission:{text:"this is the mission"},
+            titleContact:{text:"Contact Us"},
+            sendMessageButton:{text:"Send"},
+            location:{text:"Location"},
+            location1:{text:"Latino Magazine address <br> 5869 street"},
+            location2:{text:"Social Media"},
+            location3:{text:"<small>Copyright &copy; Latino Magazine 2018</small>"},
+            contact_me : {text : "Contact me"},
+            name : { text : "Name", placeholder: "Name", msg : "Please enter your name."},
+            email : { text : "email", placeholder: "email", msg : "Please enter your email."},
+            phone : { text : "phone", placeholder: "phone", msg : "Please enter your phone number."},
+            message : { text : "message", placeholder: "message", msg : "Please enter a message."}
         };
-    	console.log(myItemsUS.nameContact.placeholder);
+    	//console.log(myItemsUS.nameContact.placeholder);
       function langChange() {
           var myItems = null;
           if(lang.toUpperCase() == 'US'){

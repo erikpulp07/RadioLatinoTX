@@ -19,12 +19,20 @@
             titleServices:{text:"Our Services"},
             titleMagazine:{text:"Latino Magazine"},
             titleWWA:{text:"Who we are?"},
-            p1WWA:{text:"this is a test"},
-            p2WWA:{text:"this is a test 2"},
-            p3WWA:{text:"this is a test 3"},
+            p1WWA:{text:"We invited you to enjoy this edition of Latino Magazine, because we just started to add some new content" +
+                        "just for you, so please enjoy it and let us know you thougts, and if you have any ideas or feel that someone" +
+                        "need a litle of attention, contact us. we are very interesting in hear you"},
+            p2WWA:{text:"We would like to take a time to be thanks all our clients for trust us and set their announcements in our magazine"+
+                        "for the last 4 years, and we spect more years to come, thank you!"},
+            p3WWA:{text:"As you may know Latino Magazine classifieds is a book dedicated to improve and increst the sales numbers of" +
+                        "your bussines, through our services of marketing, those are elements help you to achive your targets in short and large term" +
+                        " We've developed a full stragedy with all the marketing elements like print magazine, facebook announcements and our website" +
+                        "If you buy a spot with us, we gonna put you through all our elements of marketing"},
             CloseModal:{text:"close"},
             titleMision:{text:"Mission"},
-            pMission:{text:"this is the mission"},
+            pMission:{text:"We provide a high quality service in out station and magazine, giving you platform for big and small markets inside and outsite" +
+                           "out borderlands. Using the last generation of tegnologies in the marketing industry, and making sure" +
+                           "the quality of services in our transmitions and magazine for the satisfaction of our clients."},
             titleContact:{text:"Contact Us"},
             sendMessageButton:{text:"Send"},
             location:{text:"Location"},

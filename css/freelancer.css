@@ -4,6 +4,50 @@ body {
   font-family: 'Lato';
 }
 
+section{
+  margin-top:1em;
+  margin-bottom: 2em;
+  line-height: 1.5em;
+  padding-right: 1em;
+}
+
+.card{
+  box-sizing: border-box;
+  padding: 0.7em;
+  box-shadow: 0px 2px 3px 1px #aaa;
+  border-left: 3px solid #aaa;
+  border-top: 2px solid #aaa;
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
+}
+
+  .cardholder{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .cardholder .card{
+    width:65%;
+    float: left;
+
+  }
+  .cardlogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    font-size: 18px;
+   
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  table {
+    border-spacing: 15px;
+  }
 h1,
 h2,
 h3,

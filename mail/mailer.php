@@ -1,8 +1,6 @@
 <?php
-require 'PHPMailer.php';
-require 'Exception.php';
-function send_mail($to,$from,$subject,$msg,$phone){
-
+    
+function send_mail($to,$from,$subject,$msg,$phone){   
 
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {

@@ -30,9 +30,13 @@
               showTitle:true,
               showHistoryBut:true,
               showHistory:false,
-                    showHistoryOnInit:true,
+              showHistoryOnInit:true,
               translateReadingData:"reading data...",
-              historyTranslate:"HISTORIAL MUSICAL",
+              historyTranslate:"HISTORIAL MUSICAL",            
+              offlineText: 'RADIO EL LATINO TX', 
+              playedText: 'Sonando', 
+              unknownTrackText: 'RADIO EL LATINO TX',
+              unknownArtistText: 'LIVE RADIO',
               historyTitleColor:"#858585",
               historyBgColor:"#f0f0f0",
               historyRecordBgColor:"transparent",
@@ -45,6 +49,6 @@
               historyRecordTitleLimit:25,
               historyRecordAuthorLimit:36,
               nowPlayingInterval:15,
-              noImageAvailable:"http://www.empresarialhost.com/generador/fondohtml5.jpg"
+              noImageAvailable:"http://www.radioimpactreports.com/wp-content/uploads/2016/12/On-Air-Mike-iStock-500394680-2-e1482345633686.jpg"
             });
           });

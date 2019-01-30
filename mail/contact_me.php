@@ -1,6 +1,6 @@
 <?php
 // Check for empty fields
-
+use PHPMailer\PHPMailer\PHPMailer;
 require 'mailer.php';
 
 

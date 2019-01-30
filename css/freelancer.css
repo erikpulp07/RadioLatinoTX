@@ -2,15 +2,10 @@
 
 body {
   font-family: 'Lato';
+  
 }
 
-section{
-  margin-top:1em;
-  margin-bottom: 2em;
-  line-height: 1.5em;
-  padding-right: 1em;
-}
-
+ 
 .card{
   box-sizing: border-box;
   padding: 0.7em;
@@ -28,8 +23,9 @@ section{
     flex-wrap: wrap;
   }
   .cardholder .card{
-    width:65%;
+    width:50%;
     float: left;
+    height: 60%;
 
   }
   .cardlogo{

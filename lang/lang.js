@@ -43,7 +43,12 @@
             name : { text : "Name", placeholder: "Name", msg : "Please enter your name."},
             email : { text : "email", placeholder: "email", msg : "Please enter your email."},
             phone : { text : "phone", placeholder: "phone", msg : "Please enter your phone number."},
-            message : { text : "message", placeholder: "message", msg : "Please enter a message."}
+            message : { text : "message", placeholder: "message", msg : "Please enter a message."},
+            oldestEd : {text:"Others editions"},
+            currentEd : {text:"Current edition"},
+            printsMore :{text: "Prints, fax services and more " },
+            bannersMore :{text: "Banners, brochures and more "},
+            yardSigns: {text: "Yard signs and more "},
 				};
         var myItemsES = {
             m1Title : {text : "Radio El Latino TX"},
@@ -84,7 +89,12 @@
             name : { text : "Nombre", placeholder: "Nombre", msg : "Favor ingresa tu nombre."},
             email : { text : "email", placeholder: "email", msg : "Favor coloca un email."},
             phone : { text : "Telefono", placeholder: "Telefono", msg : "Favor coloca tu numero telefonico."},
-            message : { text : "Mensaje", placeholder: "Mensaje", msg : "ingresa un mensaje."}
+            message : { text : "Mensaje", placeholder: "Mensaje", msg : "ingresa un mensaje."},
+            oldestEd : { text:"Otras Ediciones"},
+            oldestEd : {text:"Edición Actual"},
+            printsMore :{text: "Impresiones, servicio de fax y más " },
+            bannersMore :{text: "Banners, brochures y más"},
+            yardSigns : {text: "Señales de patio y más"},
         };
     	//console.log(myItemsUS.nameContact.placeholder);
       function langChange() {

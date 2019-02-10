@@ -1,5 +1,5 @@
 .slider {
-	width: 95%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -7,7 +7,7 @@
 .slider ul {
 	display: flex;
 	padding: 0;
-	width: 400%;
+	width: 500%;
 	animation: cambio 20s infinite alternate linear;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .slider img {
-	width: 100%;
+	width: 500%;
 }
 
 @keyframes cambio {

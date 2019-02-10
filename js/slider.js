@@ -17,7 +17,6 @@ function moverD() {
 		slider.css('margin-left', '-'+100+'%');
 	});
 }
-
 function moverI() {
 	slider.animate({
 		marginLeft:0
@@ -26,7 +25,6 @@ function moverI() {
 		slider.css('margin-left', '-'+100+'%');
 	});
 }
-
 function autoplay() {
 	interval = setInterval(function(){
 		moverD();
@@ -37,12 +35,9 @@ siguiente.on('click',function() {
 	clearInterval(interval);
 	autoplay();
 });
-
 anterior.on('click',function() {
 	moverI();
 	clearInterval(interval);
 	autoplay();
 });
-
-
 autoplay();

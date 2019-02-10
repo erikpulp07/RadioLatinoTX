@@ -1,0 +1,21 @@
+
+.cardd {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    transition: 0.3s;
+    width: 22%;
+    float: left;
+    height: 400px;
+}
+  
+  .cardd:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+ 
+
+  

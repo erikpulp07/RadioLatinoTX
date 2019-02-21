@@ -10,7 +10,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
     //   $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
         //Content
-        $boundary = str_replace(" ", "", date('l jS \of F Y h i s A'));
+        //$boundary = str_replace(" ", "", date('l jS \of F Y h i s A'));
 
         $msg    ='
         <div style="text-align:left">
@@ -43,7 +43,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
         'Return-Path'               => $from,
         'MIME-Version'              => '1.0',
         'Content-Type'              => 'text/html; charset=UTF-8; format=flowed; delsp=yes',
-        'Content-Transfer-Encoding' => 'base64',
+        'Content-Transfer-Encoding' => '8Bit',
         'X-Mailer'                  => 'Hugo - Zen',
       ];
       $mime_headers = [];

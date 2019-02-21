@@ -1,6 +1,6 @@
 <?php
     
-function send_mail($to,$from,$subject,$msg,$phone){   
+function send_mail($to,$from,$subject,$msg,$phone, $name){   
 
     try {
 
@@ -18,13 +18,30 @@ function send_mail($to,$from,$subject,$msg,$phone){
         '.$msg.'
         <br/>
         <p>Mi telefono es:'.$phone.'</p>
+        <h1>'. $name .'</h1>
         </div>
         ';
         // create email headers
-        $headers = 'From: '.$from."\r\n".
-        'Reply-To: '.$from."\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-        @mail($to, $subject, $msg, $headers); 
+       // $headers = 'From: '.$from."\r\n".
+       // 'Reply-To: '.$from."\r\n" .
+       // 'X-Mailer: PHP/' . phpversion();
+
+       $headers = [
+        'From'                      => "$name <$from>",
+        'Sender'                    => $from,
+        'Return-Path'               => $from,
+        'MIME-Version'              => '1.0',
+        'Content-Type'              => 'text/html; charset=UTF-8; format=flowed; delsp=yes',
+        'Content-Transfer-Encoding' => '8Bit',
+        'X-Mailer'                  => 'Hugo - Zen',
+      ];
+      $mime_headers = [];
+      foreach ($headers as $key => $value) {
+        $mime_headers[] = "$key: $value";
+      }
+      $mail_headers = join("\n", $mime_headers);
+
+        @mail($to, $subject, $msg, $mail_headers); 
 
         return true;
     } catch (Exception $e) {

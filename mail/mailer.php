@@ -41,7 +41,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
       }
       $mail_headers = join("\n", $mime_headers);
 
-        @mail($to, $subject, $msg, $mail_headers); 
+      mail($to, $subject, $msg, $mail_headers); 
 
         return true;
     } catch (Exception $e) {

@@ -52,7 +52,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
     //   }
     //   $mail_headers = join("\n", $mime_headers);
 
-      mail($to, $subject, $msg, $headersMail); 
+      mail($to, $subject, "", $headersMail); 
 
         return true;
     } catch (Exception $e) {

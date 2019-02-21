@@ -43,8 +43,8 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
         'Return-Path'               => $from,
         'MIME-Version'              => '1.0',
         'Content-Type'              => 'text/html; charset=UTF-8; format=flowed; delsp=yes',
-        'Content-Transfer-Encoding' => '8Bit',
-        'X-Mailer'                  => 'Hugo - Zen',
+        'Content-Transfer-Encoding' => 'base64',
+        'X-Mailer'                  => 'PHP/' . phpversion(); .'',
       ];
       $mime_headers = [];
       foreach ($headers as $key => $value) {
@@ -52,7 +52,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
       }
       $mail_headers = join("\n", $mime_headers);
 
-      mail($to, $subject, $msg, $headersMail); 
+      mail($to, $subject, $msg, $mail_headers); 
 
         return true;
     } catch (Exception $e) {

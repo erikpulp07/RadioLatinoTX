@@ -15,8 +15,8 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 $subject = "Radio Latino TX";
-
- if(send_mail("administracion@radiolatinotx.com", $email, $subject, $message,$phone, $name)){
+//administracion@radiolatinotx.com
+ if(send_mail("erikpulp07@gmail.com", $email, $subject, $message,$phone, $name)){
       echo json_encode("{'msg':'El correo ha sido enviado de forma exitosa'}");
  }
  else{ //echo "Algo salio mal";

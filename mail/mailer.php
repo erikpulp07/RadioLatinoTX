@@ -44,7 +44,7 @@ function send_mail($to,$from,$subject,$msg,$phone, $name){
         'MIME-Version'              => '1.0',
         'Content-Type'              => 'text/html; charset=UTF-8; format=flowed; delsp=yes',
         'Content-Transfer-Encoding' => 'base64',
-        'X-Mailer'                  => 'PHP/' . phpversion(); .'',
+        'X-Mailer'                  => 'Hugo - Zen',
       ];
       $mime_headers = [];
       foreach ($headers as $key => $value) {
